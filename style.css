@@ -1,0 +1,90 @@
+/*
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+} */
+@media (min-width: 721px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: #5B5772;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: #9BBFCC;
+}
+.container {
+  /*width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background-color: #9BBFCC;
+}
+
+.card {
+  width: auto;
+  background-color: #f8f9f5;
+  padding: 40px;
+  border-radius: 6px;
+  box-shadow: 5px,5px,5px, 3px rgba(0,0,0,0.3);
+  text-align: center;
+}
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.2em;
+
+}
+a {
+  text-decoration: none;
+  color: #b05d1e;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+a:hover {
+  color: inherit;
+}
+img {
+  width: 80px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+p {
+  line-height: 1.3em;
+}
+ul {
+  padding: 0;
+}
+.list-inline > li {
+  display: inline-block;
+  color: #DD4E2A;
+  padding: 0px 2px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+.fab {
+  width: 30px;
+}
